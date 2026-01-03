@@ -156,7 +156,7 @@ const App: React.FC = () => {
                                 <span className="font-mono text-[10px] text-deep-black tracking-widest uppercase block mb-2">
                                     03 / Research Focus & Impact
                                 </span>
-                                <h2 className="text-3xl md:text-4xl font-[900] tracking-[-0.04em] text-deep-black">
+                                <h2 className="text-fluid-h2 font-[900] tracking-[-0.04em] text-deep-black">
                                     Focus Areas
                                 </h2>
                             </div>
@@ -193,7 +193,7 @@ const App: React.FC = () => {
                                                 ID: {area.id}
                                             </span>
                                         </div>
-                                        <h3 className="text-2xl font-bold text-deep-black mb-4 group-hover:translate-x-1 transition-transform duration-300">
+                                        <h3 className="text-fluid-h3 font-bold text-deep-black mb-4 group-hover:translate-x-1 transition-transform duration-300">
                                             {area.title}
                                         </h3>
                                         <p className="text-sm md:text-base text-charcoal/70 leading-relaxed max-w-sm group-hover:text-charcoal transition-colors duration-300">
@@ -216,7 +216,7 @@ const App: React.FC = () => {
                             <p className="font-mono text-[10px] tracking-[0.2em] opacity-50 mb-6 uppercase">
                                 Impact Assessment
                             </p>
-                            <h3 className="text-xl md:text-3xl font-medium leading-relaxed max-w-4xl mx-auto">
+                            <h3 className="text-fluid-h3 font-medium leading-relaxed max-w-4xl mx-auto">
                                 Our research supports knowledge creation, human capital development, and preparation for advanced semiconductor workflows.
                             </h3>
                         </div>
@@ -246,7 +246,7 @@ const App: React.FC = () => {
                             <span className="font-mono text-[10px] text-deep-black tracking-widest uppercase block mb-4">
                                 04 / Infrastructure
                             </span>
-                            <h2 className="text-4xl md:text-5xl lg:text-6xl font-[900] tracking-[-0.04em] text-deep-black mb-8">
+                            <h2 className="text-fluid-h2 font-[900] tracking-[-0.04em] text-deep-black mb-8">
                                 Facilities & Technical Capabilities
                             </h2>
                             <p className="text-lg leading-relaxed text-charcoal/80 font-normal">
@@ -355,7 +355,7 @@ const App: React.FC = () => {
                                 <span className="font-mono text-[10px] text-deep-black tracking-widest uppercase block mb-4">
                                     05 / Archive
                                 </span>
-                                <h2 className="text-3xl md:text-4xl font-[900] tracking-[-0.04em] text-deep-black">
+                                <h2 className="text-fluid-h2 font-[900] tracking-[-0.04em] text-deep-black">
                                     Selected Publications & Projects
                                 </h2>
                             </div>
@@ -451,7 +451,7 @@ const App: React.FC = () => {
                             <span className="font-mono text-[10px] text-deep-black tracking-widest uppercase block mb-4">
                                 06 / People
                             </span>
-                            <h2 className="text-4xl md:text-5xl font-[900] tracking-[-0.04em] text-deep-black mb-8">
+                            <h2 className="text-fluid-h2 font-[900] tracking-[-0.04em] text-deep-black mb-8">
                                 People
                             </h2>
                         </div>
@@ -574,7 +574,7 @@ const App: React.FC = () => {
                             <span className="font-mono text-[9px] text-charcoal/50 tracking-widest uppercase block mb-6">
                                 07 / Opportunities & Collaboration
                             </span>
-                            <h2 className="text-5xl md:text-6xl lg:text-7xl font-[900] tracking-[-0.04em] text-deep-black flex items-center">
+                            <h2 className="text-fluid-h2 font-[900] tracking-[-0.04em] text-deep-black flex items-center">
                                 Work With Us
                                 <span className="blink-cursor ml-2 w-1 h-12 md:h-16 bg-deep-black inline-block"></span>
                             </h2>
@@ -599,7 +599,7 @@ const App: React.FC = () => {
                                 </div>
 
                                 {/* Title */}
-                                <h3 className="text-2xl md:text-3xl font-bold text-deep-black mb-8 leading-tight">
+                                <h3 className="text-fluid-h3 font-bold text-deep-black mb-8 leading-tight">
                                     Students & Researchers
                                 </h3>
 
@@ -630,7 +630,7 @@ const App: React.FC = () => {
                                 </div>
 
                                 {/* Title */}
-                                <h3 className="text-2xl md:text-3xl font-bold text-deep-black mb-8 leading-tight">
+                                <h3 className="text-fluid-h3 font-bold text-deep-black mb-8 leading-tight">
                                     Collaboration & Partners
                                 </h3>
 
@@ -689,7 +689,7 @@ const App: React.FC = () => {
                                         href="mailto:deice@dkut.ac.ke"
                                         className="group inline-block"
                                     >
-                                        <h2 className="text-3xl md:text-4xl lg:text-5xl font-[900] tracking-[-0.05em] text-[#F9F9F7] group-hover:text-[#5E7A8A] transition-all duration-500 leading-tight break-all">
+                                        <h2 className="text-fluid-h2 font-[900] tracking-[-0.05em] text-[#F9F9F7] group-hover:text-[#5E7A8A] transition-all duration-500 leading-tight break-all">
                                             deice@dkut.ac.ke
                                         </h2>
                                         <div className="mt-2 h-[1px] w-0 bg-[#5E7A8A] group-hover:w-full transition-all duration-700"></div>

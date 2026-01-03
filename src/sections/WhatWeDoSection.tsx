@@ -117,7 +117,7 @@ const WhatWeDoSection: React.FC = () => {
                     <span className="font-mono text-[10px] text-deep-black tracking-widest uppercase block mb-4">
                         02 / The Silicon Path
                     </span>
-                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-[900] tracking-[-0.04em] text-deep-black">
+                    <h2 className="text-fluid-h2 font-[900] tracking-[-0.04em] text-deep-black">
                         Research Pipeline
                     </h2>
                 </div>
@@ -142,7 +142,7 @@ const WhatWeDoSection: React.FC = () => {
                                             [{stage.tag}]
                                         </span>
                                     </div>
-                                    <h3 className="text-2xl md:text-3xl font-bold text-deep-black">
+                                    <h3 className="text-fluid-h3 font-bold text-deep-black">
                                         {stage.title}
                                     </h3>
                                     <p className="text-lg leading-relaxed text-charcoal/80">

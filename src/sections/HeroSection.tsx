@@ -6,7 +6,7 @@ const HeroSection: React.FC = () => {
             <div className="max-w-[1400px] w-full mx-auto relative">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-y-12 lg:gap-8 items-start">
                     <div className="lg:col-span-12 xl:col-span-11">
-                        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] xl:text-[6.5rem] font-[900] leading-[0.82] tracking-tightest text-deep-black">
+                        <h1 className="text-fluid-hero font-[900] leading-[0.82] tracking-tightest text-deep-black">
                             Advancing Integrated<br />
                             Circuits and<br />
                             <span className="text-deep-black">Semiconductor</span><br />

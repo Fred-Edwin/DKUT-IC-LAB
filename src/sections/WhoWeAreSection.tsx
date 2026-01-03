@@ -44,7 +44,7 @@ const WhoWeAreSection: React.FC = () => {
                                     01 / Institutional Grounding
                                 </span>
                             </div>
-                            <h2 className="text-3xl md:text-[3rem] font-bold leading-[1.1] tracking-[-0.04em] text-deep-black mb-10 max-w-2xl">
+                            <h2 className="text-fluid-h2 font-bold leading-[1.1] tracking-[-0.04em] text-deep-black mb-10 max-w-2xl">
                                 A Research Laboratory at Dedan Kimathi University of Technology
                             </h2>
                             <div className="space-y-6 text-charcoal/80 text-lg leading-[1.7]">

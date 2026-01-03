@@ -20,6 +20,53 @@ body {
   box-sizing: border-box;
 }
 
+/* Fluid Typography - Responsive at all zoom levels */
+@layer utilities {
+
+  /* Typography */
+  .text-fluid-hero {
+    font-size: clamp(2.5rem, 5vw + 1rem, 5.5rem);
+  }
+
+  .text-fluid-h2 {
+    font-size: clamp(1.75rem, 3vw + 0.5rem, 3rem);
+  }
+
+  .text-fluid-h3 {
+    font-size: clamp(1.25rem, 2vw + 0.5rem, 2rem);
+  }
+
+  .text-fluid-base {
+    font-size: clamp(0.875rem, 1vw + 0.25rem, 1.125rem);
+  }
+
+  /* Fluid Spacing - Responsive padding/margins */
+  .py-fluid-section {
+    padding-top: clamp(4rem, 8vw, 8rem);
+    padding-bottom: clamp(4rem, 8vw, 8rem);
+  }
+
+  .px-fluid-section {
+    padding-left: clamp(1.5rem, 5vw, 5rem);
+    padding-right: clamp(1.5rem, 5vw, 5rem);
+  }
+
+  .gap-fluid {
+    gap: clamp(1rem, 2vw, 2rem);
+  }
+
+  .mb-fluid {
+    margin-bottom: clamp(1rem, 3vw, 3rem);
+  }
+
+  /* Max width container that scales */
+  .container-fluid {
+    max-width: min(1400px, 90vw);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;

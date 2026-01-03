@@ -28,13 +28,13 @@ const WhoWeAreSection: React.FC = () => {
                 {/* Content */}
                 <div className="relative z-10 grid grid-cols-1 lg:grid-cols-10 h-full">
                     <div className={`lg:col-span-5 h-64 lg:h-full relative overflow-hidden border-b lg:border-b-0 lg:border-r border-border-grey transform transition-all duration-1000 ease-out delay-300 ${monolithVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-12'}`}>
-                        <div className="absolute inset-0 bg-gradient-to-br from-steel-blue/20 via-neutral-grey/10 to-border-grey/20">
-                            {/* Geometric pattern overlay */}
-                            <div className="absolute inset-0 opacity-10" style={{
-                                backgroundImage: 'linear-gradient(45deg, #111c21 25%, transparent 25%), linear-gradient(-45deg, #111c21 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #111c21 75%), linear-gradient(-45deg, transparent 75%, #111c21 75%)',
-                                backgroundSize: '20px 20px',
-                                backgroundPosition: '0 0, 0 10px, 10px -10px, -10px 0px'
-                            }}></div>
+                        <div className="absolute inset-0 bg-gray-100">
+                            <img
+                                src="/image.png"
+                                alt="DeKUT Research Centre"
+                                className="w-full h-full object-cover filter grayscale opacity-90 transition-transform duration-1000 hover:scale-105"
+                            />
+                            <div className="absolute inset-0 bg-steel-blue mix-blend-multiply opacity-20"></div>
                         </div>
                     </div>
                     <div className="lg:col-span-5 p-8 md:p-12 lg:p-12 flex flex-col justify-center">

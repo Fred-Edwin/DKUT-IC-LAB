@@ -4,8 +4,8 @@ const HeroSection: React.FC = () => {
     return (
         <main className="flex-grow flex flex-col justify-center px-6 md:px-12 lg:px-20 pb-20 pt-10 md:pt-0 min-h-[90vh]">
             <div className="max-w-[1400px] w-full mx-auto relative">
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-y-12 lg:gap-8 items-start">
-                    <div className="lg:col-span-12 xl:col-span-11">
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-y-12 lg:gap-8 items-start relative">
+                    <div className="lg:col-span-12 xl:col-span-11 mb-4">
                         <h1 className="text-fluid-hero font-[900] leading-[0.82] tracking-tightest text-deep-black">
                             Advancing Integrated<br />
                             Circuits and<br />
